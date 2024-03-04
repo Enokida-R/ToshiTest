@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ResultE from './ResultE';
 import ResultF from './ResultF';
 import ResultDraw from './ResultDraw'
+import ResultDrawef from "./ResultDrawef";
 
 function ResultB() {
     const [quizIndex, setQuizIndex] = useState(0);
@@ -165,7 +166,7 @@ function ResultB() {
           } else if (result === 'F') {
             return <ResultF />;
           } else if (result === 'Draw') {
-            return <ResultDraw />;
+            return <ResultDrawef />;
           }
 
     return(

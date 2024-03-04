@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import ResultC from './ResultC';
 import ResultD from './ResultD';
 import ResultDraw from './ResultDraw'; 
+import ResultDrawcd from "./ResultDrawcd";
 
 function ResultA() {
 
@@ -166,7 +167,7 @@ function ResultA() {
           } else if (result === 'D') {
             return <ResultD />;
           } else if (result === 'Draw') {
-            return <ResultDraw />;
+            return <ResultDrawcd />;
           }
 
     return(
